@@ -1,0 +1,55 @@
+$orange : #ff6e40;
+$main-margin: 5%;
+$margin-top: 10%;
+$icone-size: 15px;
+
+#welcome{
+  margin-top: 450px;
+  margin-left: $main-margin;
+  margin-right: $main-margin;
+}
+
+%span{
+  background-color: white;
+  padding: 15px;
+  margin-left: $main-margin ;
+  margin-right: $main-margin ;
+  text-align: center;
+  color: $orange;
+}
+%rounded-border{
+  border: 2px solid $orange;
+  border-radius: 15px;
+}
+
+.login {
+  @extend %span;
+  margin-top: 195px;
+}
+
+.register {
+  @extend %span;
+  margin-top: 20px;
+}
+
+i{
+  font-size: $icone-size;
+}
+
+.infos{
+  @extend %rounded-border;
+
+}
+
+.btn{
+  @extend %rounded-border;
+  background: $orange;
+  color: white;
+
+}
+
+.FG{
+  display: inline-block;
+  background: white;
+  color: $orange;
+}
