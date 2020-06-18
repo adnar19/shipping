@@ -12,16 +12,19 @@
 </head>
 <body>
 
+  <i class="fas fa-angle-left float-left back"  onclick="goback()" ></i>
+
 <div class="register ">
 
-  <form>
+
+  <form action="sms-code.html">
     <div class="form-group">
-      <label for="email" >Username</label>
+      <label for="username" >Username</label>
       <input type="text" class="form-control infos" id="username" placeholder="user ID" >
     </div>
     <div class="form-group">
-      <label for="password">Phone Number</label>
-      <input type="number" class="form-control infos" id="password" placeholder="********">
+      <label for="phone">Phone Number</label>
+      <input type="tel" class="form-control infos" id="phone" placeholder="********">
     </div>
   <div class="form-group">
     <label for="email" >Email</label>
@@ -30,11 +33,10 @@
   <div class="form-group">
     <label for="password">Password</label>
     <input type="password" class="form-control infos" id="password" placeholder="********">
-     <a href="#"><small  class="form-text text-muted float-right">Forgot your Password?</small></a>
   </div>
 
+    <button  type="submit" class="btn btn-block btn-success">REGISTER</button>
 
-  <button type="submit" class="btn btn-block btn-success">REGISTER</button>
 </form>
 <br>
 <p class="text-muted ">---OR---</p>
@@ -47,7 +49,6 @@
   <button  class="btn btn-sm btn-block FG"><i class="fab fa-facebook"></i> FACEBOOK</button>
 </div>
 <div class="col col-6">
-
   <button  class="btn btn-sm btn-block FG"><i class="fab fa-google-plus"></i> GOOGLE</button>
 </div>
 
@@ -63,4 +64,5 @@
 
 </body>
 
+<script type="text/javascript" src="js/events.js"></script>
 </html>

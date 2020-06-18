@@ -5,11 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="fontawesome/css/all.min.css" rel="stylesheet">
-    <!-- <link rel="stylesheet" href="./mdl/material.min.css"> -->
     <link rel="stylesheet" href="./bootstrap/bootstrap.min.css">
-
-
-    <!-- <script src="./mdl/material.min.js"></script> -->
     <link rel="stylesheet" href="./style/style.min.css">
 <title>Login</title>
 <style media="screen">
@@ -17,6 +13,10 @@
 </style>
 </head>
 <body>
+
+<i class="fas fa-angle-left float-left back"  onclick="goback()" ></i>
+
+<img class="logo " src="images/logo.png" alt="">
 
 <div class="login ">
 
@@ -28,7 +28,7 @@
   <div class="form-group">
     <label for="password">Password</label>
     <input type="password" class="form-control infos" id="password" placeholder="********">
-     <a href="#"><small  class="form-text text-muted float-right">Forgot your Password?</small></a>
+     <a href="forgot-password.html"><small  class="form-text text-muted float-right">Forgot your Password?</small></a>
   </div>
 
   <button type="submit" class="btn btn-block btn-success">LOGIN</button>
@@ -60,4 +60,5 @@
 
 </body>
 
+<script type="text/javascript" src="js/events.js"></script>
 </html>
